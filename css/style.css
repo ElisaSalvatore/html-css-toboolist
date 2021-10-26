@@ -1,0 +1,107 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logo {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.name {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* main */
+/* pulsanti add */
+.background-grey {
+    width: 1200px;
+    height: 0 auto;
+    background-color: rgb(246, 248, 249);
+    padding: 50px;
+}
+
+.container {
+    width: 1000px;
+    height: 0 auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.button {
+    display: inline-block;    
+}
+
+.add-task {
+    background-color: rgb(68, 171 , 238);
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 5px 20px;
+}
+
+.add-section {
+    background-color: rgb(255, 255, 255);
+    border: 1px lightgrey solid;
+    color: lightgrey;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 5px 20px;
+}
+
+
+/* new task */
+h3 {
+    margin-left: 20px;;
+}
+ul {   
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.item {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.editorial {
+    background-color: rgb(68, 171 , 238);  
+}
+
+/* today */
+.Q1-goals {
+    background-color: rgb(160, 110, 224);
+}
+
+.recuiting{
+    background-color: rgb(90, 192, 169);
+}
+
+.mobile {
+    background-color: rgb(245, 159, 67);
+}
+
+/* upcoming */
+.website {
+    background-color: rgb(221, 97, 160);
+}
+
+.sales {
+    background-color: rgb(173, 203, 60);
+}
