@@ -1,23 +1,24 @@
 * {
     font-family:Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     width: 1200px;
-    height: 100px;
-    line-height: 100px;
+    /* height: 100px; */
+    /* line-height: 100px; */
 }
 
 .logo {
-    vertical-align: middle;
-    margin-left: 20px;
+    vertical-align: middle; /* importante! */
+    padding: 10px 20px;
 }
 
 .name {
-    vertical-align: middle;
+    vertical-align: middle; /* importante! */
     display: inline-block;
-    margin-left: 10px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -26,50 +27,48 @@ header {
 /* pulsanti add */
 .background-grey {
     width: 1200px;
-    height: 0 auto;
-    background-color: rgb(246, 248, 249);
+    background-color: #eee;
     padding: 50px;
 }
 
 .container {
     width: 1000px;
-    height: 0 auto;
     margin: 0 auto;
     padding: 20px;
     background-color: rgb(255, 255, 255);
-    border-radius: 3px;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .button {
-    display: inline-block;    
+    display: inline-block; 
+    vertical-align: middle;
+    border-radius: 5px; 
+    padding: 5px 20px; 
 }
 
 .add-task {
     background-color: rgb(68, 171 , 238);
+    border: 0;
     color: white;
-    border-radius: 5px;
     margin-left: 20px;
-    padding: 5px 20px;
+    
 }
 
 .add-section {
     background-color: rgb(255, 255, 255);
     border: 1px lightgrey solid;
     color: lightgrey;
-    border-radius: 5px;
     margin-right: 20px;
-    padding: 5px 20px;
 }
-
 
 /* new task */
 h3 {
     margin-left: 20px;;
 }
-ul {   
+.inner-list li {   
     list-style: none;
-    padding: 0;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .item {
@@ -78,23 +77,24 @@ ul {
     border-radius: 10px;
     font-size: 10px;
     color: white;
+    vertical-align: middle;
 }
 
 .editorial {
-    background-color: rgb(68, 171 , 238);  
+    background-color: #09a9ed;  
 }
 
 /* today */
 .Q1-goals {
-    background-color: rgb(160, 110, 224);
+    background-color: #ab5de6;
 }
 
 .recuiting{
-    background-color: rgb(90, 192, 169);
+    background-color: #2cc6ab;
 }
 
 .mobile {
-    background-color: rgb(245, 159, 67);
+    background-color: #ff9b00;
 }
 
 /* upcoming */
@@ -111,9 +111,10 @@ li::before {
     font-size: 10px;
     padding: 3px 4px;
     margin-right: 10px;
-    color: rgb(128, 207, 190);
-    border: 1px rgb(128, 207, 190) solid;
+    color: #2cc6ab;
+    border: 1px #2cc6ab solid;
     border-radius: 50%;
+    vertical-align: middle;
 }
 
 .not::before {
@@ -121,7 +122,8 @@ li::before {
     font-size: 10px;
     padding: 3px 5px;
     margin-right: 10px;
-    color: rgb(242, 108, 106);
-    border: 1px rgb(242, 108, 106) solid;
+    color: #ff0000;
+    border: 1px #ff0000 solid;
     border-radius: 50%;
+    vertical-align: middle;
 }

@@ -4,48 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Toboolist</title>
 </head>
 <body>
     <!-- header -->
     <header>
-        <img class="logo" src="../img/Logo.png" alt="logo">
-        <div class="name">Toboolist</div> 
+        <img class="logo" src="./img/logo.png" alt="logo app">
+        <span class="name">Toboolist</span> 
     </header>
     
     <div class="background-grey">
         <div class="container">
-            <!-- main -->
-            <!-- pulsanti add -->
-            <div class="button add-task">
-                Add task
-            </div>
+                <!-- pulsanti add -->
+                <div class="button add-task">
+                    Add task
+                </div>
 
-            <div class="button add-section">
-                Add section
-            </div>
+                <div class="button add-section">
+                    Add section
+                </div>
         </div> 
 
-        <br>
-
-        <div class="container">
+        <!-- main -->
+        <main class="container">
             <!-- new task -->
-            <div class="new-task">
+            <section class="new-task">
                 <h3> &dtrif; New Task</h3>
-                <ul>
+                <ul class="inner-list">
                     <li>Quarterly Newsletter
                         <div class="item editorial">
                             Editorial
                         </div> 
                     </li>
                 </ul>  
-            </div>
+            </section>
            
             <!-- today -->
-            <div class="today"> 
+            <section class="today"> 
                 <h3> &dtrif; Today</h3>
-                <ul>
+                <ul class="inner-list">
                     <li>Recruiting blog post
                         <div class="item editorial">
                             Editorial
@@ -53,7 +51,7 @@
                     </li>
                 </ul>
 
-                <ul>
+                <ul class="inner-list">
                     <li>Mobile app launch
                         <div class="item Q1-goals">
                             Q1 Goals
@@ -61,8 +59,7 @@
                     </li>
                 </ul>
                 
-
-                <ul>
+                <ul class="inner-list">
                     <li class="not">Interview Jhon H.
                         <div class="item recuiting">
                             Recruiting
@@ -70,22 +67,22 @@
                     </li>
                 </ul>
                     
-                <ul>
+                <ul class="inner-list">
                     <li>Summit update to mobile storefronts
                         <div class="item mobile">
                             Mobile
                         </div>
                     </li>
                 </ul>
-            </div>
+            </section>
 
             <!-- upcoming -->
-            <div class="upcoming">
+            <section class="upcoming">
                 <h3> &dtrif; Upcoming</h3>
-                <ul>
+                <ul class="inner-list">
                     <li class="not">Schedule meeting with Alex</li>
                 </ul>
-                <ul>
+                <ul class="inner-list">
                     <li>Homepage refresh
                         <div class="item website">
                             Website
@@ -93,7 +90,7 @@
                     </li>       
                 </ul>
 
-                <ul>
+                <ul class="inner-list"> 
                     <li>Onboard new Sales team memebers
                         <div class="item sales">
                             Sales
@@ -101,15 +98,15 @@
                     </li>
                 </ul>
 
-                <ul>
+                <ul class="inner-list">
                     <li>Review editorial calendar
                         <div class="item editorial">
                             Editorial
                         </div>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </section>
+        </main>
     </div>
 </body>
 </html>
